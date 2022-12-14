@@ -1,0 +1,11 @@
+####
+GET http://localhost:8081/calc/digit?a=11&b=6
+
+####
+GET http://localhost:8081/calc/add?x=11&y=6
+
+####
+GET http://localhost:8081/calc/minus?a=11&b=6
+
+####
+GET http://localhost:8081/calc/multiplication?a=11&b=6
