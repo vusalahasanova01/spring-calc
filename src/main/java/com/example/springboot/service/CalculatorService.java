@@ -12,7 +12,7 @@ public class CalculatorService {
     return a - b;
   }
 
-  public int digit(int a, int b) {
+  public double digit(double a, double b) {
     return a / b;
   }
 

@@ -35,9 +35,9 @@ public class CalcController {
   }
 
   @GetMapping("digit")
-  public String digit(@RequestParam("a") Integer a, @RequestParam("b") Integer b) {
-    int result = calculatorService.digit(a, b);
-    return String.format("%d / %d = %d",
+  public String digit(@RequestParam("a") Double a, @RequestParam("b") Double b) {
+    double result = calculatorService.digit(a, b);
+    return String.format("%f / %f = %f",
         a,
         b,
         result);
